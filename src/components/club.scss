@@ -1,0 +1,20 @@
+.club {
+  border: rgb(187, 185, 185) 15px solid;
+  // width: 500px;
+  height: auto;
+  background-color: aliceblue;
+  display: flex;
+
+  &__logo {
+    font-size: 50px;
+    color: green;
+    padding: 15px;
+  }
+  &__texts {
+    width: 100%;
+    &__members {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
